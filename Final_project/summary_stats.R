@@ -44,15 +44,18 @@ divergence_long <- divergence %>%
 glimpse(divergence_long)
 
 # box plot of average divergence for each model
-ggplot(divergence_long, aes(x = model, y = divergence_value, fill = model)) +
+model <- ggplot(divergence_long, aes(x = model, y = divergence_value, fill = model)) +
   geom_boxplot(outlier.shape = NA, alpha = 0.6) +  # Alpha for boxplot fill
   geom_jitter(width = 0.2, height = 0, alpha = 0.3, color = "black") +  # Semi-transparent points
   labs(title = "Divergence across Models", x = "Model", y = "Divergence") +
   theme_minimal()
 
 # box plots of average k2p divergence by Class
-ggplot(divergence_class, aes(x = reorder(Class1, -avg_k2p), y = avg_k2p)) +
+class <- ggplot(divergence_class, aes(x = reorder(Class1, -avg_k2p), y = avg_k2p)) +
   geom_bar(stat = "identity") +
   coord_flip() +
   labs(title = "Average k2p Divergence by Class", x = "Class", y = "Average k2p Divergence") +
   theme_minimal()
+
+# plot side by side
+model | class
