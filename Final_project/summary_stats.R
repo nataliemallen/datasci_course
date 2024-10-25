@@ -45,8 +45,8 @@ glimpse(divergence_long)
 
 # box plot of average divergence for each model
 model <- ggplot(divergence_long, aes(x = model, y = divergence_value, fill = model)) +
-  geom_boxplot(outlier.shape = NA, alpha = 0.6) +  # Alpha for boxplot fill
-  geom_jitter(width = 0.2, height = 0, alpha = 0.3, color = "black") +  # Semi-transparent points
+  geom_boxplot(outlier.shape = NA, alpha = 0.6) +  
+  geom_jitter(width = 0.2, height = 0, alpha = 0.3, color = "black") +  
   labs(title = "Divergence across Models", x = "Model", y = "Divergence") +
   theme_minimal()
 
