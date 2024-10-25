@@ -1,1 +1,5 @@
+species_index_table contains indexed species, accession numbers, vertebrate Class, and will be updated to include data for each factor of interest.
 
+pair_index_table contains species pair numbers and the index numbers of the species in each pair
+
+divergence_table contains values of divergence, using four nucleotide models, for each species pair
