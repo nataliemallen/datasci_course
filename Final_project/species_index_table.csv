@@ -7,9 +7,6 @@
 6,Ammospiza_nelsoni,GCF_027579445.1,bird,Aves,1.2,0.019,2.66
 7,Apteryx_mantelli_mantelli,GCF_001039765.1,bird,Aves,1.5,2.61,8.8
 8,Apteryx_rowi,GCF_003343035.1,bird,Aves,1.2,2.25,10.45
-9,Balaenoptera_acutorostrata,GCF_949987535.1,mammal,Mammalia,2.8,,22.1
-10,Balaenoptera_musculus,GCF_009873245.2,mammal,Mammalia,2.4,,30.8
-11,Balaenoptera_ricei,GCF_028023285.1,mammal,Mammalia,2.7,,18.4
 12,Bos_indicus,GCF_000247795.1,mammal,Mammalia,2.7,350,8
 13,Bos_javanicus,GCF_032452875.1,mammal,Mammalia,3,700,6
 14,Bos_mutus,GCF_000298355.1,mammal,Mammalia,2.6,546,10
@@ -58,8 +55,6 @@
 57,Gopherus_flavomarginatus,GCF_025201925.1,reptile,Reptilia,2.5,85,15
 58,Haliaeetus_albicilla,GCF_000691405.1,bird,Aves,1.1,4.78,5.5
 59,Haliaeetus_leucocephalus,GCF_000737465.1,bird,Aves,1.2,4.3,5
-60,Hippocampus_comes,GCF_001891065.2,fish,Osteichthyes,0.492,,0.6
-61,Hippocampus_zosterae,GCF_025434085.1,fish,Osteichthyes,0.545,,0.325
 62,Hippoglossus_hippoglossus,GCF_009819705.1,fish,Osteichthyes,0.597,100,9
 63,Hippoglossus_stenolepis,GCF_022539355.2,fish,Osteichthyes,0.602,230,9.25
 64,Ictalurus_furcatus,GCF_023375685.1,fish,Osteichthyes,0.826,75,4
