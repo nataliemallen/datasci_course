@@ -1,4 +1,4 @@
-species_index_table contains indexed species, accession numbers, vertebrate Class, and will be updated to include data for each factor of interest.
+species_index_table contains indexed species, accession numbers, vertebrate Class, and data for each factor of interest.
 
 pair_index_table contains species pair numbers and the index numbers of the species in each pair
 
